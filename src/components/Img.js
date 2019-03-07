@@ -1,10 +1,13 @@
 import React from "react"
 
-function Img() {
+function Img(props) {
     return (
-        <div>
-            
-        </div>
+        <img 
+            src={props.src} 
+            alt={props.name} 
+            className="img-thumbnail clickable-images" 
+            onClick={() => props.pickImg(props.name)} 
+        />
     )
 }
 

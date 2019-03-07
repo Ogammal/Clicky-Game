@@ -3,8 +3,8 @@ import React from "react"
 function Footer() {
     return (
         <footer>
-            <div class="bottom">
-
+            <div className="bottom">
+                Flea Bottom
             </div>
         </footer>
     )

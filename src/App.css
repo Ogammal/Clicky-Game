@@ -1,3 +1,35 @@
+.navbar {
+  background: #5133a4;
+  min-height: 70px;
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  /* z-index: 99; */
+  white-space: nowrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+h2 {
+  margin: 40px 0 20px 0;
+  font-size: 20px
+}
+
+span {
+  font-size: 24px
+}
+
+.message {
+  font-size: 18px;
+  margin-left: 90px
+}
+
 .App {
   text-align: center;
 }

@@ -1,21 +1,22 @@
 import React from "react"
 // import Score from "./score.js"
 
-function Nav() {
+function Nav(props) {
     return(
-        <nav class = "navbar">
-            <ul>
-                <li class = "brand">
-                    <a href="*">Clicky Game</a>
-                </li>
-                <li>
-                    Click an image to begin!
-                </li>
-                <li>
-                    Score:
-                </li>
+        <nav className = "navbar">
+            
+            <span className = "brand">
+                <a href="*">Clicky Game</a>
+            </span>
+            <span className= "message">
+                {props.message}
+            </span>
+            <span>
+                Score: {props.correct} | Top Score: {props.topscore} 
 
-            </ul>
+            </span>
+
+            
         </nav>
     )
 }
